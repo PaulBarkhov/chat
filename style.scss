@@ -6,6 +6,7 @@
 
 body {
     background-color: rgb(218, 218, 218);
+    overflow: hidden;
 }
 
 .container {
@@ -13,6 +14,7 @@ body {
     height: calc(100vh - 90px);
     height: 100vh;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 main {
@@ -21,6 +23,7 @@ main {
     flex-direction: column;
     justify-content: end;
     padding-bottom: 70px;
+    overflow: scroll;
 }
 
 
